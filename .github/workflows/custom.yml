@@ -1,0 +1,10 @@
+name: custom-action
+on: push
+job:
+  main:
+  runs-on: ubuntu-latest
+  steps:
+  -uses: actions/checkout@v2
+  -uses: JaganMohanRao/custom-action@main
+  
+  
