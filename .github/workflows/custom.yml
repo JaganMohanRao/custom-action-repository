@@ -2,9 +2,7 @@ name: custom-action
 on: push
 jobs:
   main:
-  runs-on: ubuntu-latest
-  steps:
-  -uses: actions/checkout@v2
-  -uses: JaganMohanRao/custom-action@main
-  
-  
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: JaganMohanRao/custom-action@main
