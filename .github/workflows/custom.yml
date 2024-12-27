@@ -1,6 +1,6 @@
 name: custom-action
 on: push
-job:
+jobs:
   main:
   runs-on: ubuntu-latest
   steps:
